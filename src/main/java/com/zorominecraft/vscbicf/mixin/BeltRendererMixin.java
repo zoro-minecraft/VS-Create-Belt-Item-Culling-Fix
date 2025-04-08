@@ -11,6 +11,7 @@ import com.simibubi.create.foundation.blockEntity.renderer.SafeBlockEntityRender
 
 import net.minecraft.client.renderer.MultiBufferSource;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 
 import org.spongepowered.asm.mixin.Mixin;
@@ -33,12 +34,12 @@ public abstract class BeltRendererMixin extends SafeBlockEntityRenderer<BeltBloc
 	}
 
 	@Override
-	public boolean shouldCullItem(Vec3 itemPos) {
+	public boolean shouldCullItem(Vec3 itemPos, Level level) {
 		if (vscbicf$getWorkingMode() == WorkingMode.WITH_SHIP) {
 			return false;
 		}
 
-		return super.shouldCullItem(itemPos);
+		return super.shouldCullItem(itemPos, level);
 	}
 
 	@Unique

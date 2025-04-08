@@ -28,6 +28,6 @@ description='''Small mod to fix items not being rendered on Create Mechanical Be
 [[dependencies.vscbicf]]
     modId="create"
     mandatory=true
-    versionRange="[0.5.1.h]"
+    versionRange="[0.5.1.i]"
     ordering="AFTER"
     side="BOTH"

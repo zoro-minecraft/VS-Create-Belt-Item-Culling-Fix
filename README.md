@@ -4,11 +4,14 @@
 <p>It will also work for any Create Interactive Contraption or Train (as they are using VS as well).</p>
 
 
+## Demo
 
-TODO Demo IMG
+<b>The Working Mode menu is only displayed at the start of each belt!</b>
+
+![](./.github/Demo_GIF.gif)
 
 
-
+## Credits
 
 <p>The functionality of this mod was inspired by the mod "VS Addition" by <a href="https://github.com/xiewuzhiying" target="_blank">@xiewuzhiying</a>
 (<a href="https://www.curseforge.com/minecraft/mc-mods/vs-addition" target="_blank">CurseForge</a> |

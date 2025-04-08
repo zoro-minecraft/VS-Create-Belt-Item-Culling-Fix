@@ -2,7 +2,9 @@
 
 <p>Small mod to fix items not being rendered on Create Mechanical Belts on Valkyrien Skies ships (Invisible Items on Create Belts on VS ships).</p>
 <p>It will also work for any Create Interactive Contraption or Train (as they are using VS as well).</p>
-
+<br/>
+<p><b>You can download it for your corresponding Create version to the right in the "Releases" section</b></p>
+<br/>
 
 ## Demo
 

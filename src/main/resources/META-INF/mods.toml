@@ -1,0 +1,35 @@
+# TODO
+
+modLoader="javafml"
+loaderVersion="[47,)"
+license="CC BY-NC 4.0"
+
+[[mods]]
+modId="vscbicf"
+# The Implementation-Version property in the jar's MANIFEST.MF file will be used as the mod version at runtime
+version="${file.jarVersion}"
+displayName="VS Create Belt Item Culling Fix"
+displayURL="TODO"
+authors="zorominecraft"
+description='''Small mod to fix items not being rendered on Create Mechanical Belts on Valkyrien Skies ships.'''
+
+[[dependencies.vscbicf]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.1.3,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vscbicf]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.vscbicf]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.1.g,0.5.1.i)"
+    ordering="AFTER"
+    side="BOTH"

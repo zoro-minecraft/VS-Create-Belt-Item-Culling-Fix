@@ -1,0 +1,5 @@
+{
+  "create.vscbicf.working_mode" : "Working Mode",
+  "create.vscbicf.working_mode.original" : "Original behavior",
+  "create.vscbicf.working_mode.with_ship" : "Another behavior for ships"
+}

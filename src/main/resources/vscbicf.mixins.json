@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "priority": 1100,
+  "package": "com.zorominecraft.vscbicf.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "vscbicf.refmap.json",
+  "mixins": [
+    "BeltBlockEntityMixin",
+    "BeltRendererMixin"
+  ],
+  "client": [
+    "BeltBlockEntityMixin",
+    "BeltRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
